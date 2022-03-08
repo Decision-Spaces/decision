@@ -1,0 +1,7 @@
+tasks:
+  - name: Dependencies & Database
+    init: |
+      cd astro
+      npm install astro
+      npm install vercel
+    command: npm run dev
